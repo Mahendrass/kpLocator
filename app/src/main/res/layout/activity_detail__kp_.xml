@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv_detailGambar"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/tv_detailJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JUDUL"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:src="@drawable/googlemap"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konsentrasi"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_konsentrasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TKCBI"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Syarat Pendaftaran KP"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_syaratKp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Syarat"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimum Waktu KP"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_lamaKp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 Bulan"
+        android:textSize="18sp"/>
+</LinearLayout>
